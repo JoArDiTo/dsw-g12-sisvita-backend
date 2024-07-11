@@ -1,56 +1,36 @@
-# Maven specific files
+HELP.md
 target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-# Gradle specific files
-.gradle/
-build/
-!gradle/wrapper/gradle-wrapper.jar
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
-# IntelliJ IDEA specific files
-.idea/
+### IntelliJ IDEA ###
+.idea
 *.iws
 *.iml
 *.ipr
 
-# NetBeans specific files
-nbproject/private/
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
 build/
-nbbuild/
-dist/
-nbdist/
-.nb-gradle/
+!**/src/main/**/build/
+!**/src/test/**/build/
 
-# VS Code specific files
+### VS Code ###
 .vscode/
 
-# Eclipse specific files
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-bin/
-tmp/
-
-# OS specific files
-.DS_Store
-Thumbs.db
-
-# Log files
-*.log
-
-# Spring Boot specific files
-*.jar
-*.war
-*.ear
-
-# Environment variables
+### ENV ###
 .env
-
-# Miscellaneous
-*.swp
